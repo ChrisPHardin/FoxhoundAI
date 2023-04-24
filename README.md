@@ -1,6 +1,6 @@
 # SnakeAI
 
-## information
+## Information
 FoxhoundAI simulates the codec conversations from Metal Gear Solid 1 using many characters from the game. Conversations can be had between up to 4 characters at a time, and are generated in realtime. Conversations can be about random or user generated topics, and AI generated images can be set as well. It was originally running continously on Twitch.tv until funds ran out. It uses Monogame as the basis for rendering graphics on screen. OpenAI generates the AI responses using the GPT3 Curie model, and Google Cloud converts those to audio files which are then spoken by the respective characters. There is also integration with Twitch's API to add chat input.
 
 ## Future
