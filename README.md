@@ -4,6 +4,20 @@
 
 FoxhoundAI is a parody of the codec conversations from Metal Gear Solid 1 and simulates them using AI-generated dialog between characters from the game. Conversations can be had between up to 4 characters at a time, and are generated in near real-time. Conversations can be about random or user generated topics, and AI generated images can be set as well. It was originally running continously at Twitch.tv/foxhoundai and is planned to continue in the future. It uses Monogame as the basis for rendering graphics, playing sounds, and other effects. OpenAI generates the AI responses using the GPT3 Curie model, and Google Cloud converts those to audio files which are then spoken in TTS voices corresponding to each character. There is integration with Twitch's API to allow for user generated topics and commands.
 
+## Demo
+
+Since it may be difficult to get this to run as is, there is a demo available on YouTube here:
+
+https://www.youtube.com/watch?v=DM_xKVVenZA
+
+There are also clips availabe on the main streaming channel of the AI on Twitch:
+
+https://www.twitch.tv/foxhoundai
+
+The website currently directs to the above demo, but more details and information will be added shortly:
+
+https://foxhoundai.net
+
 ## Instructions
 
 Authentication for Google Cloud, OpenAI, and Twitch have not been implemented in a streamlined or secure way as of yet, and are currently hardcoded in Game1.cs. For this to run on your system, you will need to do the following:
@@ -38,20 +52,6 @@ These can be obtained on abandonware sites. Alternatively, the files can be chan
 ### 3. Fonts "000webfont" and "alarm clock" should be installed in the system and can be found in popular font sharing websites.
 
 More streamlined and secure authentication to be added in the future.
-
-## Demo
-
-Since it may be difficult to get this to run as is, there is a demo available on YouTube here:
-
-https://www.youtube.com/watch?v=DM_xKVVenZA
-
-There are also clips availabe on the main streaming channel of the AI on Twitch:
-
-https://www.twitch.tv/foxhoundai
-
-The website currently directs to the above demo, but more details and information will be added shortly:
-
-https://foxhoundai.net
 
 ## Stream Info
 
