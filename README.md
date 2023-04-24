@@ -12,7 +12,8 @@ Authentication for Google Cloud, OpenAI, and Twitch have not been implemented in
 <sub> 
 _Google_
 
-Google Cloud JSON credentials can be generated under Service Accounts here: https://console.cloud.google.com/apis/credentials and the path is specified under the Initialize method on line 203.
+1. Google Cloud JSON credentials can be generated under Service Accounts here: https://console.cloud.google.com/apis/credentials 
+2. The path of the JSON file is specified under the Initialize method on line 203.
 
 _Twitch_
 
@@ -27,9 +28,8 @@ _If you'd prefer to not use twitch, it should not be difficult to remove by remo
 
 _OpenAI_
 
--API secret can be generated here: https://platform.openai.com/account/api-keys
-
-The secret should be placed in the quotes on lines 1567 and 1588, With Bearer before it. Example "Bearer sk-888888888"
+1. API secret can be generated here: https://platform.openai.com/account/api-keys
+2. The secret should be placed in the quotes on lines 1567 and 1588, With Bearer before it. Example "Bearer sk-888888888"
 </sub>
   
 **2. Add OST files matching filenames in ostlist.txt to Content\ost**
