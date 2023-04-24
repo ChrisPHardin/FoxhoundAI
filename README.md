@@ -8,7 +8,7 @@ FoxhoundAI is a parody of the codec conversations from Metal Gear Solid 1 and si
 
 Authentication for Google Cloud, OpenAI, and Twitch have not been implemented in a streamlined or secure way as of yet, and are currently hardcoded in Game1.cs. For this to run on your system, you will need to do the following:
 
-**1. Input Google Cloud JSON path, Twitch info, and OpenAI tokens in the appropriate places in [Game1.cs](FoxhoundAI/SnakeAI/Game1.cs)**
+**1. Input Google Cloud JSON path, Twitch info, and OpenAI tokens in the appropriate places in [Game1.cs](SnakeAI/Game1.cs)**
 <sub> 
 _Google_
 
@@ -34,7 +34,7 @@ _OpenAI_
   
 **2. Add OST files matching filenames in ostlist.txt to Content\ost**
 
-These can be obtained on abandonware sites. Alternatively, the files can be changed in ostlist.txt, Just be sure to add any new music to the [Content.mgcb](FoxhoundAI/SnakeAI/Content/Content.mgcb) file that's in the Content folder and build it.
+These can be obtained on abandonware sites. Alternatively, the files can be changed in ostlist.txt, Just be sure to add any new music to the [Content.mgcb](SnakeAI/Content/Content.mgcb) file that's in the Content folder and build it.
 
 **3. Fonts "000webfont" and "alarm clock" should be installed in the system and can be found in popular font sharing websites.**
 
