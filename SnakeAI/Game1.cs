@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic;
+using Microsoft.VisualBasic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -3416,8 +3416,5 @@ _graphics.PreferredBackBufferHeight / 2),
 
             }
         }
-
-
-
     }
 }
