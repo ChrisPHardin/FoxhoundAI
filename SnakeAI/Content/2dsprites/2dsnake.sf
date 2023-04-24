@@ -1,0 +1,34 @@
+{
+  "textureAtlas": {
+    "texture": "..\\..\\..\\..\\..\\..\\Desktop\\225302.png",
+    "regionWidth": 24,
+    "regionHeight": 40
+  },
+  "cycles": {
+    "animation0": {
+      "frames": [13,14,15],
+      "isLooping": true,
+      "frameDuration": 0.15
+    },
+    "animation1": {
+      "frames": [12,11,10],
+      "isLooping": true,
+      "frameDuration": 0.15
+    },
+    "animation2": {
+      "frames": [6,5,4],
+      "isLooping": true,
+      "frameDuration": 0.15
+    },
+    "animation3": {
+      "frames": [25,26,27],
+      "isLooping": true,
+      "frameDuration": 0.15
+    },
+    "animation4": {
+      "frames": [30,29,28],
+      "isLooping": true,
+      "frameDuration": 0.2
+    }
+  }
+}
