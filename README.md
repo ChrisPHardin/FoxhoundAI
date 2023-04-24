@@ -8,9 +8,8 @@ FoxhoundAI is a parody of the codec conversations from Metal Gear Solid 1 and si
 
 Authentication for Google Cloud, OpenAI, and Twitch have not been implemented in a streamlined or secure way as of yet, and are currently hardcoded in Game1.cs. For this to run on your system, you will need to do the following:
 
-**1. Input Google Cloud JSON path, Twitch info, and OpenAI tokens in the appropriate places in [Game1.cs](SnakeAI/Game1.cs)**
+### 1. Input Google Cloud JSON path, Twitch info, and OpenAI tokens in the appropriate places in [Game1.cs](SnakeAI/Game1.cs)
 
-<sub> 
 _Google_
 
 1. Google Cloud JSON credentials can be generated under Service Accounts here: https://console.cloud.google.com/apis/credentials 
@@ -31,13 +30,12 @@ _OpenAI_
 
 1. API secret can be generated here: https://platform.openai.com/account/api-keys
 2. The secret should be placed in the quotes on lines 1567 and 1588, With Bearer before it. Example "Bearer sk-888888888"
-</sub>
   
-**2. Add OST files matching filenames in ostlist.txt to Content\ost**
+### 2. Add OST files matching filenames in ostlist.txt to Content\ost
 
 These can be obtained on abandonware sites. Alternatively, the files can be changed in ostlist.txt, Just be sure to add any new music to the [Content.mgcb](SnakeAI/Content/Content.mgcb) file that's in the Content folder and build it.
 
-**3. Fonts "000webfont" and "alarm clock" should be installed in the system and can be found in popular font sharing websites.**
+### 3. Fonts "000webfont" and "alarm clock" should be installed in the system and can be found in popular font sharing websites.
 
 More streamlined and secure authentication to be added in the future.
 
