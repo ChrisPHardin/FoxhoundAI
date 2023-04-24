@@ -49,9 +49,7 @@ _If you'd prefer to not use twitch, it should not be difficult to remove by remo
 
 These can be obtained on abandonware sites. Alternatively, the files can be changed in ostlist.txt, Just be sure to add any new music to the [Content.mgcb](SnakeAI/Content/Content.mgcb) file that's in the Content folder and build it.
 
-### 3. Fonts "000webfont" and "alarm clock" should be installed in the system and can be found in popular font sharing websites.
-
-More streamlined and secure authentication to be added in the future.
+### 3. Fonts "000webfont" and "alarm clock" should be installed in the system and can be found on popular font sharing websites.
 
 ## Stream Info
 
