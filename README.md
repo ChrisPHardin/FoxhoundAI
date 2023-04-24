@@ -9,6 +9,7 @@ FoxhoundAI is a parody of the codec conversations from Metal Gear Solid 1 and si
 Authentication for Google Cloud, OpenAI, and Twitch have not been implemented in a streamlined or secure way as of yet, and are currently hardcoded in Game1.cs. For this to run on your system, you will need to do the following:
 
 **1. Input Google Cloud JSON path, Twitch info, and OpenAI tokens in the appropriate places in [Game1.cs](SnakeAI/Game1.cs)**
+
 <sub> 
 _Google_
 
