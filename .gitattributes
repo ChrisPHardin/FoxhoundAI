@@ -2,7 +2,7 @@
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
 * text=auto
-*.cs gitlab-language=csharp
+*.cs text diff=csharp
 
 ###############################################################################
 # Set default behavior for command prompt diff.
