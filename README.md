@@ -10,12 +10,12 @@ Authentication for Google Cloud, OpenAI, and Twitch have not been implemented in
 
 ### 1. Input Google Cloud JSON path, Twitch info, and OpenAI tokens in the appropriate places in [Game1.cs](SnakeAI/Game1.cs)
 
-_Google_
+**Google**
 
 1. Google Cloud JSON credentials can be generated under Service Accounts here: https://console.cloud.google.com/apis/credentials 
 2. The path of the JSON file is specified under the Initialize method on line 203.
 
-_Twitch_
+**Twitch**
 
 _If you'd prefer to not use twitch, it should not be difficult to remove by removing lines pertaining to the variables api and tclient. It may be enough to simply remove the if statement starting on line 1332._
 
@@ -26,7 +26,7 @@ _If you'd prefer to not use twitch, it should not be difficult to remove by remo
 5. Twitch client secret should be set in line 1134.
 6. Find and replace all instances of foxhoundai with your twitch channel username.
 
-_OpenAI_
+**OpenAI**
 
 1. API secret can be generated here: https://platform.openai.com/account/api-keys
 2. The secret should be placed in the quotes on lines 1567 and 1588, With Bearer before it. Example "Bearer sk-888888888"
