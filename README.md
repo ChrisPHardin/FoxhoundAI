@@ -2,7 +2,7 @@
 
 ## Information
 
-FoxhoundAI is a parody of the codec conversations from Metal Gear Solid 1 and simulates them using AI-generated dialog between characters from the game. Conversations can be had between up to 4 characters at a time, and are generated in near real-time. Conversations can be about random or user generated topics, and AI generated images can be set as well. It was originally running continously at Twitch.tv/foxhoundai and is planned to continue in the future. It uses Monogame as the basis for rendering graphics, playing sounds, and other effects. OpenAI generates the AI responses using the GPT3 Curie model, and Google Cloud converts those to audio files which are then spoken in TTS voices corresponding to each character. There is integration with Twitch's API to allow for user generated topics and commands.
+FoxhoundAI is a parody of the codec conversations from Metal Gear Solid 1 and simulates them using AI-generated dialog between characters from the game. Conversations can be had between up to 4 characters at a time, and are generated in near real-time. Conversations can be about random or user generated topics, and AI generated images can be set as well. It was originally running continously at Twitch.tv/foxhoundai and is planned to continue in the future. It uses Monogame as the basis for rendering graphics, playing sounds, and other effects. OpenAI generates the AI responses using the GPT3 Curie model, which are then parsed by the app into dialog using Gooogle Cloud Text-To-Speeech. Additionally, there is an integration with Twitch's API to allow for user generated topics and commands.
 
 ## Demo
 
